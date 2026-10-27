@@ -25,6 +25,24 @@
       cursor: pointer;
     }
     .hero button:hover { background: #155680; }
+
+    .coleccions { margin-top: 40px; }
+    .cartes { display: flex; gap: 20px; flex-wrap: wrap; }
+    .carta {
+      flex: 1 1 280px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .carta span {
+      display: inline-block;
+      background: #d6ebf7;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin-right: 5px;
+    }
   </style>
 </head>
 <body>
@@ -40,6 +58,30 @@
       <h1>Món Viatges</h1>
       <p>Descobreix el món, un país cada vegada</p>
       <button>Veure destinacions</button>
+      
+    </section>
+        <section class="coleccions">
+      <h2>Les nostres col·leccions</h2>
+      <div class="cartes">
+        <div class="carta">
+          <h3>Europa</h3>
+          <p>Ciutats històriques, gastronomia i paisatges de postal.</p>
+          <span>Cultura</span>
+          <span>Ciutats</span>
+        </div>
+        <div class="carta">
+          <h3>Àsia</h3>
+          <p>Tradició mil·lenària, temples i una cuina inoblidable.</p>
+          <span>Aventura</span>
+          <span>Gastronomia</span>
+        </div>
+        <div class="carta">
+          <h3>Amèrica</h3>
+          <p>Platges, selves i grans ciutats plenes de vida.</p>
+          <span>Natura</span>
+          <span>Platja</span>
+        </div>
+      </div>
     </section>
   </main>
 
