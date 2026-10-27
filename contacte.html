@@ -19,6 +19,24 @@
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #b8d9ee;
+      border-radius: 6px;
+      font-family: Arial, sans-serif;
+      font-size: 1rem;
+    }
+    form button { margin-top: 20px; }
+
   </style>
 </head>
 <body>
@@ -34,7 +52,20 @@
         <div class="contacte-grid">
       <section class="columna-a">
         <h2>Escriu-nos</h2>
-        <p>Aquí anirà el formulari.</p>
+
+        <form>
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+
+          <label for="missatge">Missatge</label>
+          <textarea id="missatge" name="missatge" rows="5"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+        
       </section>
       <section class="columna-b">
         <h2>Informació de contacte</h2>
