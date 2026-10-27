@@ -22,6 +22,31 @@
       background: #1e6fa8;
       color: white;
     }
+
+    .targetes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .targeta {
+      flex: 1 1 260px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .imatge {
+      height: 160px;
+      background: #b8d9ee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #1f3a4d;
+    }
+    .info { padding: 15px; }
+    .info h3 { margin: 0 0 8px; }
+    .preu { font-weight: bold; color: #1e6fa8; }
+
   </style>
 </head>
 <body>
@@ -40,6 +65,30 @@
       <span>Europa</span>
       <span>Àsia</span>
       <span>Amèrica</span>
+    </div>
+
+        <div class="targetes">
+      <div class="targeta">
+        <div class="imatge">Imatge</div>
+        <div class="info">
+          <h3>Itàlia</h3>
+          <p class="preu">850 €</p>
+        </div>
+      </div>
+      <div class="targeta">
+        <div class="imatge">Imatge</div>
+        <div class="info">
+          <h3>Japó</h3>
+          <p class="preu">1.900 €</p>
+        </div>
+      </div>
+      <div class="targeta">
+        <div class="imatge">Imatge</div>
+        <div class="info">
+          <h3>Mèxic</h3>
+          <p class="preu">1.400 €</p>
+        </div>
+      </div>
     </div>
 
   </main>
