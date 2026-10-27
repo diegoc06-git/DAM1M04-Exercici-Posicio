@@ -37,3 +37,12 @@ nav a {
 nav a:hover { text-decoration: underline; }
 
 main { margin-top: 70px; }
+
+/* Footer */
+footer {
+  background: #1f3a4d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
